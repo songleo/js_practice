@@ -1,0 +1,12 @@
+{
+	"manifest_version":2,
+	"name":"disable_baidu",
+	"description":"disable baidu",
+	"version":"0.0.1",
+	"content_scripts":[
+		{
+			"matches":["*://www.baidu.com/*"],
+			"js":["disable_baidu.js"]
+		}
+	]
+}
